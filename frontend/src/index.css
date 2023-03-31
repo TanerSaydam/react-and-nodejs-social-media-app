@@ -1,0 +1,75 @@
+.card-div{
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+.profile-img, .profile-avatar, .profile-comment-avatar{
+    margin-top: 5px;
+    outline-width: 5px;
+    outline-style: solid;
+    outline-color: #ccc;
+    border-radius: 70px;    
+}
+
+.profile-img{
+    width: 150px;
+}
+
+.profile-avatar{
+    width: 70px;   
+    height: 70px;
+}
+
+.profile-comment-avatar{
+    width: 40px;
+}
+
+.post-input{
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.post-input:hover{
+    background-color: #f1f1f1;    
+}
+
+.btn-default:hover{    
+    background-color: #f1f1f1;
+    border-radius: 25px;
+}
+
+textarea:focus{
+    outline-style: none !important;
+}
+
+.login{
+    background-color: rgb(2, 23, 56);
+    height: 100vh;
+    padding: 6%;    
+}
+
+.login-div{
+    background-image: url("../public/assets/47823.jpg");
+    height: 70vh;
+    box-shadow: 15px 15px 15px #000;    
+}
+
+.login-div-card{
+    background-color: #f1f1f1 !important;
+    height: 70vh;    
+    padding-top: 13%;
+}
+
+.fileLabel{
+    font-size:30px;
+    cursor:pointer;
+    border: 1px solid #ccc;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 30px; 
+}
+
+.fileLabel:hover{
+    background-color: #f1f1f1;
+}
